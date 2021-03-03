@@ -57,7 +57,7 @@ const playGame = () => {
                             if (pokemon_hp <= 0) {
                                 console.log(`${pokemonName} has fainted, you better leave ${pokemonName} and dip!`)
                             } else if (cat_hp <= 0) {
-                                console.log('caterpie got clapped, you won!!');
+                                console.log('caterpie lost, you won!!');
                             } else {
                                 battleSequence(pokemon_hp,cat_hp, pokemonName);
                             }
